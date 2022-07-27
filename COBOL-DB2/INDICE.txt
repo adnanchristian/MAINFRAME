@@ -1,0 +1,6 @@
+                          PROGRAMAS COBOL-DB2
+FR10DB01 - PROGRAMA QUE FAZ A LEITURA DE DADOS DE UMA TABELA DB2                                              
+FR10DB02 - PROGRAMA QUE RECEBE DADOS DE UMA TABELA DB2 E EMITE DADOS DE MEDIA, MAIOR E MENOR SALARIO                                    
+FR10DB03 - PROGRAMA QUE INSERE DADOS EM UMA TABELA DB2 ATRÁVES DA SYSIN                                   
+FR10DB04 - PROGRAMA QUE DELETA DADOS DE UMA TABELA DB2 ATRÁVES DA SYSIN                                                 
+FR10DB05 - PROGRAMA QUE ATUALIZA DADOS DE UMA TABELA DB2 ATRÁVES DA SYSIN.                                             

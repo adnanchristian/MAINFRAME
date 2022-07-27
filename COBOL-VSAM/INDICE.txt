@@ -1,0 +1,8 @@
+                          PROGRAMAS COBOL-VSAM
+F10COVSA - PROGRAMA QUE CRIA SOBRE ARQUIVO VSAM NO CICS                                                
+FR10LVSA - PROGRAMA QUE FAZ LEITURA DE UM ARQUIVO VSAM                                    
+MD021001 - PROGRAMA QUE FAZ LEITRUA DE UM ARQUIVO VSAM, FORMATA E SALVA SEUS DADOS EM UM ARQUIVO SEQUENCIAL                                   
+MD021002 - PROGRAMA QUE FAZ A LEITURA DE UM ARQUIVO VSAM COM A UTILIZACAO DO SORT                                                
+MD021003 - PROGRAMA QUE LE ARQUIVO VSAM UTILIZANDO AS VARIAVEIS START EM SUA LÓGICA                                               
+MD021004 - PROGRAMA QUE REALIZA REWRITE EM UM ARQUIVO VSAM E GRAVA A EXCECAO INCONSISTENTE EM UM ARQUIVO SEQUENCIAL                                          
+                                    
