@@ -1,0 +1,5 @@
+                          PROGRAMAS COBOL-CICS
+F10CIM1 - DESIGN DE TELA DO BMS PARA UM APLICATIVO CICS                                                 
+F10CIP1 - LEITURA DO MAPSET DESENVOLVIDO                                   
+F10CIP2 - PROGRAMA CICS/DB2 QUE REALIZA A LEITURA DA TABELA DB2 NO AMBIENTE CICS                                    
+F10CIP3 - LEITURA DE UM ARQUIVO NO AMBIENTE CICS                                                 

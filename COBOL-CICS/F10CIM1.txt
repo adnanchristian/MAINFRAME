@@ -1,0 +1,55 @@
+F10CIM1 DFHMSD TYPE=MAP,MODE=INOUT,LANG=COBOL,CTRL=FREEKB,TIOAPFX=YES, *00010023
+               MAPATTS=(COLOR)                                          00011023
+MAPTEST DFHMDI SIZE=(24,80)                                             00012023
+*****************************************************                   00013023
+        DFHMDF POS=(1,13),LENGTH=55,INITIAL='-*-*-*-*-*-*-*-*-*-*-*-*-**00013157
+               -*-*-*-*-*-*-*-*-*-*-*-*-*-*-',ATTRB=ASKIP,COLOR=YELLOW  00013257
+        DFHMDF POS=(2,30),                                             *00014056
+               LENGTH=24,                                              *00015023
+               ATTRB=ASKIP,                                            *00016023
+               INITIAL='CONSULTA DE FUNCIONARIOS',COLOR=YELLOW          00017048
+        DFHMDF POS=(3,13),LENGTH=55,INITIAL='-*-*-*-*-*-*-*-*-*-*-*-*-**00017156
+               -*-*-*-*-*-*-*-*-*-*-*-*-*-*-',ATTRB=ASKIP,COLOR=YELLOW  00017248
+*****************************************************                   00018023
+        DFHMDF POS=(05,20),LENGTH=10,INITIAL='ID.......:',ATTRB=ASKIP   00019023
+ID      DFHMDF POS=(05,31),LENGTH=05,ATTRB=(UNPROT,IC,NUM),COLOR=PINK   00020023
+        DFHMDF POS=(05,37),LENGTH=01,ATTRB=PROT                         00030023
+*****************************************************                   00040023
+        DFHMDF POS=(07,20),LENGTH=10,INITIAL='NOME.....:',ATTRB=ASKIP   00050023
+NOME    DFHMDF POS=(07,31),LENGTH=30,ATTRB=UNPROT,COLOR=PINK            00060023
+        DFHMDF POS=(07,62),LENGTH=1,ATTRB=PROT                          00070023
+*****************************************************                   00080023
+        DFHMDF POS=(09,20),LENGTH=10,INITIAL='SETOR....:',ATTRB=ASKIP   00090023
+SETOR   DFHMDF POS=(09,31),LENGTH=04,ATTRB=UNPROT,COLOR=PINK            00100023
+        DFHMDF POS=(09,36),LENGTH=1,ATTRB=PROT                          00110023
+*****************************************************                   00120023
+        DFHMDF POS=(11,20),LENGTH=10,INITIAL='SALARIO..:',ATTRB=ASKIP   00130023
+SAL     DFHMDF POS=(11,31),LENGTH=10,ATTRB=(UNPROT,NUM),               *00140046
+               PICOUT='9(10)',PICIN='9(10)',COLOR=PINK                  00140147
+        DFHMDF POS=(11,42),LENGTH=1,ATTRB=PROT                          00141023
+*****************************************************                   00141123
+        DFHMDF POS=(13,20),LENGTH=10,INITIAL='DATA ADM.:',ATTRB=ASKIP   00141223
+DATADM  DFHMDF POS=(13,31),LENGTH=10,ATTRB=(UNPROT,NUM),COLOR=PINK      00141326
+        DFHMDF POS=(13,42),LENGTH=1,ATTRB=PROT                          00141826
+        DFHMDF POS=(13,59),LENGTH=08,INITIAL='FORMATO:',               *00141955
+               COLOR=YELLOW                                             00142053
+        DFHMDF POS=(14,58),LENGTH=10,INITIAL='DD-MM-AAAA',             *00142155
+               COLOR=YELLOW                                             00142253
+*****************************************************                   00142349
+        DFHMDF POS=(15,20),LENGTH=10,INITIAL='E-MAIL...:',ATTRB=ASKIP   00142449
+EMAIL   DFHMDF POS=(15,31),LENGTH=40,ATTRB=UNPROT,COLOR=PINK            00142549
+        DFHMDF POS=(15,72),LENGTH=1,ATTRB=PROT                          00142649
+*****************************************************                   00142749
+        DFHMDF POS=(20,10),LENGTH=10,INITIAL='MENSAGEM.:',ATTRB=ASKIP   00142849
+MSG     DFHMDF POS=(20,21),LENGTH=40,ATTRB=ASKIP                        00142949
+        DFHMDF POS=(20,62),LENGTH=1,ATTRB=PROT                          00143049
+*****************************************************                   00143149
+        DFHMDF POS=(23,01),LENGTH=37,                                  *00143249
+               INITIAL=' ENTER=REFRESH   F3=EXIT   F5=INSERT',         *00143349
+               COLOR=NEUTRAL                                            00143449
+        DFHMDF POS=(23,39),LENGTH=36,                                  *00143549
+               INITIAL=' F6=CONSULT   F8=DELETE   F9=UPDATE ',         *00143649
+               COLOR=NEUTRAL                                            00143749
+*****************************************************                   00143849
+        DFHMSD TYPE=FINAL                                               00143949
+        END                                                             00144027
