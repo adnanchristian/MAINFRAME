@@ -1,0 +1,26 @@
+       IDENTIFICATION                            DIVISION.              00010000
+       PROGRAM-ID.  FR10CB05.                                           00020000
+      *=====================================================*           00021008
+      *     AUTOR   : ADNAN CHRISTIAN                                   00022000
+      *     EMPRESA : FOURSYS                                           00023000
+      *     DATA    : 19/04/2022                                        00024006
+      *     OBJETIVO: CRIAR LAYOUT                                      00025006
+      *=====================================================*           00025108
+      *ENVIRONMENT                               DIVISION.              00026000
+      *=====================================================*           00026108
+       DATA                                      DIVISION.              00027000
+       WORKING-STORAGE                           SECTION.               00027100
+       01 WRK-REGISTROS.                                                00027203
+          05 WRK-ID              PIC  9(05) VALUE ZEROS.                00027300
+          05 WRK-CLIENTE         PIC  X(30) VALUE SPACES.               00027400
+          05 WRK-TELEFONE        PIC  9(10) VALUE ZEROS.                00027601
+          05 WRK-GERENTE         PIC  X(15) VALUE SPACES.               00027701
+       PROCEDURE DIVISION.                                              00027800
+           ACCEPT WRK-REGISTROS FROM SYSIN.                             00027900
+           DISPLAY '-------------------------------------'              00028007
+           DISPLAY ' ID: ' WRK-ID.                                      00028105
+           DISPLAY ' CLIENTE: ' WRK-CLIENTE.                            00028205
+           DISPLAY ' TELEFONE: ' WRK-TELEFONE.                          00028305
+           DISPLAY ' GERENTE: ' WRK-GERENTE.                            00028405
+           DISPLAY '-------------------------------------'              00028507
+           STOP RUN.                                                    00029000

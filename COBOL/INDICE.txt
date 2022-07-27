@@ -1,0 +1,39 @@
+                          PROGRAMAS COBOL
+FR10CB01 - TESTE DE COMPILACAO                                                
+FR10CB02 - TESTE DE COMPILACAO - O RETORNO                                    
+FR10CB03 - ACCEPT DE UMA VARIAVEL NA SYSIN                                    
+FR10CB04 - ACCEPT DE UMA DATA                                                 
+FR10CB05 - EXERCICIO DE ACCEPT                                                
+FR10CB06 - USO DE VARIAVEL BINARIA                                            
+FR10CB07 - USO DA VARIAVEL FILLER                                             
+FR10CB08 - USO DO REDEFINES MOSTRAR NOME                                      
+FR10CB09 - USO DO REDEFINES RUA, NUMERO, BAIRRO                               
+FR10CB10 - USO DO ADD PARA SOMA                                               
+FR10CB11 - SOMA DE N1 E N2 COM O RES INICIALIZANDO COM 1                      
+FR10CB12 - SOMA DE N1,N2 E N3 E ADD 10 PARA RES                               
+FR10CB13 - SUBTRACAO DE N1 E N2                                               
+FR10CB14 - SUBTRACAO DE N1 E N2 COM RES NEGATIVO                              
+FR10CB20 - DIVIDE                                                             
+FR10CB21 - MULTIPLY                                                           
+FR10CB22 - COMPUTE                                                            
+FR10CB23 - VERIFICAR O MAIOR VALOR                                            
+FR10CB24 - APLICAR CONHECIMENTO DO COMANDO IF COM OPERADOR LOGICO            
+FR10CB25 - APLICAR CONHECIMENTO DO COMANDO EVALUATE                           
+FR10CB26 - APLICAR O CONHECIMENTO DO COMANDO EVALUATE CALCULANDO MEDIA        
+FR10CB27 - APLICAR CONHECIMENTO SOBRE VARIAVEIS NIVEL 88                      
+FR10CB28 - APLICAR O CONHECIMENTO SOBRE ARQUIVOS                              
+FR10CB29 - APLICAR O CONHECIMENTO SOBRE ARQUIVOS                              
+FR10CB30 - ABERTURA DO ARQUIVO FUNC                                           
+FR10CB31 - LEITURA DE TODOS OS REGISTROS COM SAIDA IDEM AO LAYOUT             
+FR10CB32 - LEITURA DE ARQUIVO COM SAIDA DE LAYOUT MENOR                       
+FR10CB33 - RECEBER SYSIN E GRAVAR EM UM ARQUIVO                               
+FR10CB34 - GRAVACAO DE UM ARQUIVO DE ENTRADA EM UM ARQUIVO RESUMO              
+FR10CB35 - GRAVACAO DO ARQUIVO DE ENTRADA EM UM ARQUIVO DE SAIDA                
+FR10CB36 - LEITURA DE UM REGISTRO EM UM ARQUIVO DE DADOS            
+FR10CB37 - GRAVAÇÃO DO ARQUIVO ROTINA NO ARQUIVO DE SAIDA RES  
+FR10CB38 - APLICAR CONHECIMENTO SOBRE RELATORIO                               
+FR10CB39 - LER REGISTROS DO ARQUIVO DE ENTRADA E GRAVAR NO ARQUIVO DE SAIDA
+SOMENTE REGISTROS COM CPF.
+FR10RELA - PROGRAMA GERADOR DE RELATORIO COM CABEÇALHO
+GRAVALOG - PROGRAMA GERADOR DE MÓDULO PARA GRAVAÇÃO DE ERROS NO PROGRAMA COBOL
+PROGLOG - PROGRAMA QUE TESTA O FUNCIONAMENTO DO MODULO DE GRAVAÇÃO DE ERROS

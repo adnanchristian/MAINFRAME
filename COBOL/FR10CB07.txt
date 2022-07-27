@@ -1,0 +1,26 @@
+       IDENTIFICATION                            DIVISION.              00010003
+       PROGRAM-ID.  FR10CB07.                                           00020004
+      *====================================================             00030005
+      *    AUTOR    : ADNAN CHRISTIAN                                   00040003
+      *    EMPRESA  : FOURSYS                                           00050003
+      *    DATA     : 20/04/2022                                        00060003
+      *    OBJETIVO : USO DE FILLERS                                    00070003
+      *====================================================             00080005
+      *ENVIRONMENT                               DIVISION.              00090003
+      *====================================================             00090105
+       DATA                                      DIVISION.              00091003
+       WORKING-STORAGE                            SECTION.              00091103
+       01 WRK-REGISTRO.                                                 00091203
+          05 WRK-COD          PIC 9(05)      VALUE ZEROS.               00091303
+          05 WRK-NOME         PIC X(15)      VALUE SPACES.              00091403
+          05 FILLER           PIC X(10)      VALUE SPACES.              00091503
+          05 WRK-CARGO        PIC X(15)      VALUE SPACES.              00091604
+          05 FILLER           PIC X(15)      VALUE SPACES.              00091703
+       PROCEDURE                                 DIVISION.              00091803
+           ACCEPT WRK-REGISTRO FROM SYSIN.                              00091903
+           DISPLAY '========================='.                         00092003
+           DISPLAY 'CODIGO: ' WRK-COD.                                  00092103
+           DISPLAY 'NOME  : ' WRK-NOME.                                 00092203
+           DISPLAY 'CARGO : ' WRK-CARGO.                                00092304
+           DISPLAY '========================='.                         00092403
+           STOP RUN.                                                    00092503

@@ -1,0 +1,22 @@
+       IDENTIFICATION                            DIVISION.              00010004
+       PROGRAM-ID.  FR10CB06.                                           00020004
+      *=========================================                        00030004
+      *    AUTOR    : ADNAN CHRISTIAN                                   00040004
+      *    EMPRESA  : FOURSYS                                           00050004
+      *    DATA     : 19/04/2022                                        00060004
+      *    OBJETIVO : USO DE VARIAVEL BINARIA                           00070004
+      *=========================================                        00080004
+      *ENVIRONMENT                               DIVISION.              00090004
+       DATA                                      DIVISION.              00091004
+       WORKING-STORAGE                            SECTION.              00091104
+       77 WRK-VALOR        PIC 9(05).                                   00091206
+       77 WRK-VALOR-COMP   PIC 9(05) COMP-3   VALUE ZEROS.              00091306
+                                                                        00091404
+       PROCEDURE                                 DIVISION.              00091504
+           ACCEPT WRK-VALOR FROM SYSIN.                                 00091604
+           MOVE   WRK-VALOR TO   WRK-VALOR-COMP.                        00091706
+           ADD 1            TO  WRK-VALOR-COMP.                         00091807
+           DISPLAY '=========================='.                        00091905
+           DISPLAY 'RESULTADO:' WRK-VALOR-COMP.                         00092004
+           DISPLAY '=========================='.                        00093005
+           STOP RUN.                                                    00094004

@@ -1,0 +1,26 @@
+       IDENTIFICATION                            DIVISION.              00010000
+       PROGRAM-ID.  FR10CB09.                                           00020000
+      *====================================================             00030000
+      *    AUTOR    : ADNAN CHRISTIAN                                   00040000
+      *    EMPRESA  : FOURSYS                                           00050000
+      *    DATA     : 20/04/2022                                        00060000
+      *    OBJETIVO : USO DE REDEFINES                                  00070000
+      *====================================================             00080000
+      *ENVIRONMENT                               DIVISION.              00090000
+      *====================================================             00090100
+       DATA                                      DIVISION.              00090200
+       WORKING-STORAGE                            SECTION.              00090300
+       01 WRK-REGISTRO        PIC X(45)   VALUE SPACES.                 00090400
+       01 FILLER              REDEFINES      WRK-REGISTRO.              00090500
+          05 FILLER           PIC X(15).                                00090600
+          05 WRK-RUA          PIC X(15).                                00090700
+          05 WRK-NUM          PIC X(05).                                00090800
+          05 WRK-BAI          PIC X(10).                                00090900
+       PROCEDURE                                 DIVISION.              00091000
+           ACCEPT WRK-REGISTRO FROM SYSIN.                              00091100
+           DISPLAY '========================='.                         00091200
+           DISPLAY 'RUA: ' WRK-RUA.                                     00091300
+           DISPLAY 'NUMERO: ' WRK-NUM.                                  00091400
+           DISPLAY 'BAIRRO: ' WRK-BAI                                   00091500
+           DISPLAY '========================='.                         00091600
+           STOP RUN.                                                    00091700

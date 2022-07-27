@@ -1,0 +1,24 @@
+       IDENTIFICATION                            DIVISION.              00010000
+       PROGRAM-ID.  FR10CB08.                                           00020000
+      *====================================================             00030000
+      *    AUTOR    : ADNAN CHRISTIAN                                   00040000
+      *    EMPRESA  : FOURSYS                                           00050000
+      *    DATA     : 20/04/2022                                        00060000
+      *    OBJETIVO : USO DE REDEFINES MOSTRAR NOME                     00070005
+      *====================================================             00080000
+      *ENVIRONMENT                               DIVISION.              00090000
+      *====================================================             00090100
+       DATA                                      DIVISION.              00090200
+       WORKING-STORAGE                            SECTION.              00090300
+       01 WRK-REGISTRO        PIC X(45)   VALUE SPACES.                 00090401
+       01 FILLER              REDEFINES      WRK-REGISTRO.              00090504
+          05 WRK-NOME         PIC X(15).                                00090602
+          05 FILLER           PIC X(15).                                00090702
+          05 FILLER           PIC X(05).                                00090802
+          05 FILLER           PIC X(10).                                00090902
+       PROCEDURE                                 DIVISION.              00091000
+           ACCEPT WRK-REGISTRO FROM SYSIN.                              00091100
+           DISPLAY '========================='.                         00091200
+           DISPLAY 'NOME  : ' WRK-NOME.                                 00091403
+           DISPLAY '========================='.                         00091600
+           STOP RUN.                                                    00091700
